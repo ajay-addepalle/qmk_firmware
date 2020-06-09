@@ -24,14 +24,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MASTER_LEFT
-// #define MASTER_RIGHT
+//#define MASTER_LEFT
+ #define MASTER_RIGHT
 // #define EE_HANDS
 
 #define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 100
+#define TAPPING_TERM 500
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -40,6 +40,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
+
+// Mouse keys
+#define MOUSEKEY_DELAY 100
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MAX_SPEED 4 
+#define MOUSEKEY_TIME_TO_MAX 60
+#define MOUSEKEY_WHEEL_DELAY 100
+//#define MOUSEKEY_WHEEL_INTERVAL 100
+//#define MOUSEKEY_WHEEL_MAX_SPEED 8
+//#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
+
+
 
 // Underglow
 /*
