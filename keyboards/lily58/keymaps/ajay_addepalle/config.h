@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-//#define MASTER_LEFT
- #define MASTER_RIGHT
+#define MASTER_LEFT
+//#define MASTER_RIGHT
 // #define EE_HANDS
 
 #define USE_SERIAL_PD2
@@ -51,7 +51,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define MOUSEKEY_WHEEL_MAX_SPEED 8
 //#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
 
-
+#define FORCE_NKRO
 
 // Underglow
 /*
